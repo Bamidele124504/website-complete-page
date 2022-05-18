@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo{
+    width: 40%;
+}
+.nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.login-signin{
+    width: 20%;
+   text-align: center;
+}
+.login-signin a{
+    margin-right: 10px;
+}
+
+.parent{
+width: 90%;
+margin: auto;
+}
+
+.main-section{
+     padding-top: 90px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 40px;
+     /* line-height: 40px; */
+}
+
+.text{
+    width: 500px;
+    margin-top: 30px;
+
+}
+
+.text-div h1{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+
+.text-div p{
+    padding-bottom: 40px;
+}
+
+
+.intro{
+    background-color:rgb(218, 213, 213);
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    color:white ;
+    background-color: rgb(80, 14, 141);
+    border: none;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    background-color: rgb(80, 14, 141) ;
+    color: white;
+    width: 70px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    color: rgb(80, 14, 141);
+}
+.icon{
+    font-size: 30px;
+    width: 40px;
+    height: auto;
+    background-color: rgb(80, 14, 141);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius:100% ;
+    border-bottom-right-radius: 100%;
+    color: white;
+}
+
+img{
+    border-radius: 10px;
+}
